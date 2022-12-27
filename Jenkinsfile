@@ -25,7 +25,7 @@ pipeline
 		{
 			steps
 			{
-				sh 'python hello.py'			
+				sh 'sh -x hello.sh'			
 			}		
 		
 		}	
