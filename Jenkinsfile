@@ -25,7 +25,7 @@ pipeline
 		{
 			steps
 			{
-				sh 'echo "Deploy stage"'			
+				sh 'python hello.py'			
 			}		
 		
 		}	
